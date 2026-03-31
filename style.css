@@ -1,0 +1,7 @@
+body { margin: 0; background: #000; overflow: hidden; font-family: 'Orbitron', sans-serif; }
+#ui {
+  position: absolute; width: 100%; text-align: center; color: #0f0;
+  text-shadow: 0 0 10px #0f0; top: 20px; pointer-events: none;
+}
+#score { font-size: 24px; margin-bottom: 10px; }
+canvas { display: block; filter: contrast(1.2) brightness(1.1); }
